@@ -3,17 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@hookform/resolvers": "^3.3.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.5.1",
+    "clsx": "^2.0.0",
+    "date-fns": "^2.30.0",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
+    "react-datepicker": "^4.24.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.49.2",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.0"
+    "simplebar-react": "^3.2.4",
+    "web-vitals": "^3.5.0",
+    "yup": "^1.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "upgrade modules": "yarn upgrade-interactive",
+    "update modules": "yarn up",
+    "install modules": "yarn install",
+    "deduplicate dependencies": "yarn dedupe",
+    "clean yarn cache": "yarn cache clean"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +51,6 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.3.6"
-  }
+  },
+  "packageManager": "yarn@4.0.2"
 }
